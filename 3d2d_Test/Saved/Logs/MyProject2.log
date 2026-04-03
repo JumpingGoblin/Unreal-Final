@@ -2391,3 +2391,255 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.04.03-05.55.58:119][377]LogPlayLevel: Display: Destroying online subsystem :Context_15
 [2026.04.03-05.56.13:569][282]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
 [2026.04.03-05.56.17:740][282]LogSlate: Window 'Save Content' being destroyed
+[2026.04.03-06.00.27:611][447]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.04.03-06.00.27:617][447]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.04.03-06.00.27:617][447]LogPlayLevel: Display: Creating online subsystem for client :Context_16
+[2026.04.03-06.00.27:619][447]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2026.04.03-06.00.27:629][448]LogPlayLevel: Creating play world package: /Game/Nimikko_WesternTown/Maps/UEDPIE_0_WildWestVillage
+[2026.04.03-06.00.27:720][448]LogPlayLevel: PIE: StaticDuplicateObject took: (0.091392s)
+[2026.04.03-06.00.27:720][448]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Nimikko_WesternTown/Maps/WildWestVillage.WildWestVillage to /Game/Nimikko_WesternTown/Maps/UEDPIE_0_WildWestVillage.WildWestVillage (0.091443s)
+[2026.04.03-06.00.27:739][448]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2026.04.03-06.00.27:740][448]LogChaosDD: Creating Chaos Debug Draw Scene for world WildWestVillage
+[2026.04.03-06.00.27:742][448]LogPlayLevel: PIE: World Init took: (0.001516s)
+[2026.04.03-06.00.27:743][448]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2026.04.03-06.00.27:743][448]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.04.03-06.00.27:743][448]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.04.03-06.00.27:743][448]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.04.03-06.00.27:743][448]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.04.03-06.00.27:743][448]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.04.03-06.00.27:743][448]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.04.03-06.00.27:743][448]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.04.03-06.00.27:743][448]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.04.03-06.00.27:743][448]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.04.03-06.00.27:743][448]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.04.03-06.00.27:743][448]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.04.03-06.00.27:744][448]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.04.03-06.00.27:847][448]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.04.03-06.00.27:847][448]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.04.03-06.00.27:847][448]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.04.03-06.00.27:847][448]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.04.03-06.00.27:849][448]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2026.04.03-06.00.27:849][448]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2026.04.03-06.00.27:850][448]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2026.04.03-06.00.27:850][448]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2026.04.03-06.00.27:850][448]LogInit: FAudioDevice initialized with ID 9.
+[2026.04.03-06.00.27:850][448]LogAudio: Display: Audio Device (ID: 9) registered with world 'WildWestVillage'.
+[2026.04.03-06.00.27:850][448]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2026.04.03-06.00.27:853][448]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.04.03-06.00.27:899][448]LogWorld: Bringing World /Game/Nimikko_WesternTown/Maps/UEDPIE_0_WildWestVillage.WildWestVillage up for play (max tick rate 60) at 2026.04.03-02.00.27
+[2026.04.03-06.00.27:899][448]LogWorld: Bringing up level for play took: 0.044692
+[2026.04.03-06.00.27:901][448]PIE: Server logged in
+[2026.04.03-06.00.27:904][448]PIE: Play in editor total start time 0.287 seconds.
+[2026.04.03-06.00.28:009][449]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 768
+[2026.04.03-06.00.28:056][450]LogRenderer: Warning: [VSM] One Pass Projection max lights overflow. If you see shadow artifacts, decrease the amount of local lights per pixel, or increase r.Shadow.Virtual.OnePassProjection.MaxLightsPerPixel.
+[2026.04.03-06.00.44:151][417]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10596.141602
+[2026.04.03-06.00.44:250][422]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.03-06.00.44:250][422]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10596.224609, Update Interval: 329.869080
+[2026.04.03-06.01.19:414][530]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.03-06.01.19:414][530]LogWorld: BeginTearingDown for /Game/Nimikko_WesternTown/Maps/UEDPIE_0_WildWestVillage
+[2026.04.03-06.01.19:415][530]LogWorld: UWorld::CleanupWorld for WildWestVillage, bSessionEnded=true, bCleanupResources=true
+[2026.04.03-06.01.19:425][530]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.03-06.01.19:427][530]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.04.03-06.01.19:431][530]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.03-06.01.19:460][530]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.03-06.01.19:464][530]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2026.04.03-06.01.19:464][530]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9, StreamState=4
+[2026.04.03-06.01.19:466][530]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9, StreamState=2
+[2026.04.03-06.01.19:480][530]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2026.04.03-06.01.19:525][531]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2026.04.03-06.05.57:878][188]LogDerivedDataCache: C:/Users/kenbs/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.04.03-06.06.50:825][364]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10962.492188
+[2026.04.03-06.06.50:942][371]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.03-06.06.50:942][371]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10962.591797, Update Interval: 315.637695
+[2026.04.03-06.12.43:453][521]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11314.778320
+[2026.04.03-06.12.43:553][528]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.03-06.12.43:553][528]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11314.860352, Update Interval: 338.911102
+[2026.04.03-06.19.02:215][246]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11693.185547
+[2026.04.03-06.19.02:315][253]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.03-06.19.02:315][253]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11693.268555, Update Interval: 341.494812
+[2026.04.03-06.24.32:637][ 66]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/Characters/Rwalk/Janitor_Sprite_Rwalk.Janitor_Sprite_Rwalk
+[2026.04.03-06.24.32:638][ 66]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_8
+[2026.04.03-06.25.03:458][880]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.04.03-06.25.03:464][880]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.04.03-06.25.03:464][880]LogPlayLevel: Display: Creating online subsystem for client :Context_18
+[2026.04.03-06.25.03:466][880]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2026.04.03-06.25.03:477][881]LogPlayLevel: Creating play world package: /Game/Nimikko_WesternTown/Maps/UEDPIE_0_WildWestVillage
+[2026.04.03-06.25.03:590][881]LogPlayLevel: PIE: StaticDuplicateObject took: (0.113527s)
+[2026.04.03-06.25.03:590][881]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Nimikko_WesternTown/Maps/WildWestVillage.WildWestVillage to /Game/Nimikko_WesternTown/Maps/UEDPIE_0_WildWestVillage.WildWestVillage (0.113612s)
+[2026.04.03-06.25.03:632][881]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2026.04.03-06.25.03:633][881]LogChaosDD: Creating Chaos Debug Draw Scene for world WildWestVillage
+[2026.04.03-06.25.03:635][881]LogPlayLevel: PIE: World Init took: (0.001556s)
+[2026.04.03-06.25.03:636][881]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2026.04.03-06.25.03:636][881]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.04.03-06.25.03:636][881]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.04.03-06.25.03:636][881]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.04.03-06.25.03:636][881]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.04.03-06.25.03:636][881]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.04.03-06.25.03:636][881]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.04.03-06.25.03:636][881]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.04.03-06.25.03:636][881]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.04.03-06.25.03:636][881]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.04.03-06.25.03:636][881]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.04.03-06.25.03:636][881]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.04.03-06.25.03:638][881]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.04.03-06.25.03:761][881]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.04.03-06.25.03:761][881]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.04.03-06.25.03:761][881]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.04.03-06.25.03:761][881]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.04.03-06.25.03:762][881]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2026.04.03-06.25.03:762][881]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2026.04.03-06.25.03:764][881]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2026.04.03-06.25.03:764][881]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2026.04.03-06.25.03:764][881]LogInit: FAudioDevice initialized with ID 10.
+[2026.04.03-06.25.03:764][881]LogAudio: Display: Audio Device (ID: 10) registered with world 'WildWestVillage'.
+[2026.04.03-06.25.03:765][881]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2026.04.03-06.25.03:768][881]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2026.04.03-06.25.03:809][881]LogWorld: Bringing World /Game/Nimikko_WesternTown/Maps/UEDPIE_0_WildWestVillage.WildWestVillage up for play (max tick rate 60) at 2026.04.03-02.25.03
+[2026.04.03-06.25.03:810][881]LogWorld: Bringing up level for play took: 0.041077
+[2026.04.03-06.25.03:812][881]PIE: Server logged in
+[2026.04.03-06.25.03:815][881]PIE: Play in editor total start time 0.351 seconds.
+[2026.04.03-06.25.03:928][882]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 768
+[2026.04.03-06.25.03:986][883]LogRenderer: Warning: [VSM] One Pass Projection max lights overflow. If you see shadow artifacts, decrease the amount of local lights per pixel, or increase r.Shadow.Virtual.OnePassProjection.MaxLightsPerPixel.
+[2026.04.03-06.25.33:211][637]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 12083.899414
+[2026.04.03-06.25.33:328][643]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.03-06.25.33:328][643]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 12083.999023, Update Interval: 333.434235
+[2026.04.03-06.25.42:025][163]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.03-06.25.42:025][163]LogWorld: BeginTearingDown for /Game/Nimikko_WesternTown/Maps/UEDPIE_0_WildWestVillage
+[2026.04.03-06.25.42:025][163]LogWorld: UWorld::CleanupWorld for WildWestVillage, bSessionEnded=true, bCleanupResources=true
+[2026.04.03-06.25.42:037][163]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.03-06.25.42:039][163]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.04.03-06.25.42:043][163]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.03-06.25.42:064][163]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.04.03-06.25.42:064][163]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2026.04.03-06.25.42:064][163]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10, StreamState=4
+[2026.04.03-06.25.42:066][163]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10, StreamState=2
+[2026.04.03-06.25.42:069][163]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.03-06.25.42:080][163]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2026.04.03-06.25.42:122][164]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2026.04.03-06.26.11:939][918]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_9
+[2026.04.03-06.27.10:118][381]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2026.04.03-06.27.10:120][381]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Nimikko_WesternTown/Maps/WildWestVillage' took 0.025
+[2026.04.03-06.27.10:121][381]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Idle2/Janitor_Sprite_Sheet4] ([1] browsable assets)...
+[2026.04.03-06.27.10:123][381]OBJ SavePackage:     Rendered thumbnail for [PaperFlipbook /Game/Characters/Idle2/Janitor_Sprite_Sheet4.Janitor_Sprite_Sheet4]
+[2026.04.03-06.27.10:123][381]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Idle2/Janitor_Sprite_Sheet4]
+[2026.04.03-06.27.10:133][381]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/Idle2/Janitor_Sprite_Sheet4_Auto6
+[2026.04.03-06.27.10:133][381]LogSavePackage: Moving '../../../../Users/kenbs/Downloads/Unreal Final/3d2d_Test/Saved/Janitor_Sprite_Sheet4_Auto65D2EB5DE4A39DC73DE75FCAB9EDF8D23.tmp' to '../../../../Users/kenbs/Downloads/Unreal Final/3d2d_Test/Saved/Autosaves/Game/Characters/Idle2/Janitor_Sprite_Sheet4_Auto6.uasset'
+[2026.04.03-06.27.10:134][381]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Rwalk/Janitor_Sprite_Rwalk] ([1] browsable assets)...
+[2026.04.03-06.27.10:137][381]OBJ SavePackage:     Rendered thumbnail for [PaperFlipbook /Game/Characters/Rwalk/Janitor_Sprite_Rwalk.Janitor_Sprite_Rwalk]
+[2026.04.03-06.27.10:137][381]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Rwalk/Janitor_Sprite_Rwalk]
+[2026.04.03-06.27.10:143][381]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/Rwalk/Janitor_Sprite_Rwalk_Auto6
+[2026.04.03-06.27.10:144][381]LogSavePackage: Moving '../../../../Users/kenbs/Downloads/Unreal Final/3d2d_Test/Saved/Janitor_Sprite_Rwalk_Auto65306378146E5B0934D25D3816C49BA82.tmp' to '../../../../Users/kenbs/Downloads/Unreal Final/3d2d_Test/Saved/Autosaves/Game/Characters/Rwalk/Janitor_Sprite_Rwalk_Auto6.uasset'
+[2026.04.03-06.27.10:144][381]LogFileHelpers: Auto-saving content packages took 0.023
+[2026.04.03-06.28.18:010][452]LogShaderCompilers: Display: ================================================
+[2026.04.03-06.28.18:010][452]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.04.03-06.28.18:010][452]LogShaderCompilers: Display: Total job queries 2,583, among them cache hits 587 (22.73%), DDC hits 1,716 (66.43%), Duplicates 172 (6.66%)
+[2026.04.03-06.28.18:010][452]LogShaderCompilers: Display: Tracking 1,824 distinct input hashes that result in 1,097 distinct outputs (60.14%)
+[2026.04.03-06.28.18:010][452]LogShaderCompilers: Display: RAM used: 10.04 MiB of 1.60 GiB budget. Usage: 0.61%
+[2026.04.03-06.28.18:010][452]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.04.03-06.28.18:010][452]LogShaderCompilers: Display: Shaders Compiled: 108
+[2026.04.03-06.28.18:010][452]LogShaderCompilers: Display: Jobs assigned 108, completed 108 (100%)
+[2026.04.03-06.28.18:010][452]LogShaderCompilers: Display: Average time worker was idle: 220.18 s
+[2026.04.03-06.28.18:010][452]LogShaderCompilers: Display: Time job spent in pending queue: average 1.55 s, longest 5.98 s
+[2026.04.03-06.28.18:010][452]LogShaderCompilers: Display: Job execution time: average 2.14 s, max 5.49 s
+[2026.04.03-06.28.18:010][452]LogShaderCompilers: Display: Job life time (pending + execution): average 3.69 s, max 7.04
+[2026.04.03-06.28.18:010][452]LogShaderCompilers: Display: Shader code size: total 1.002 MiB, numShaders 108, average 9.501 KiB, min 2.105 KiB, max 30.828 KiB
+[2026.04.03-06.28.18:010][452]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 8.67 s
+[2026.04.03-06.28.18:010][452]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.32%
+[2026.04.03-06.28.18:010][452]LogShaderCompilers: Display: Jobs were issued in 71 batches (only local compilation was used), average 1.52 jobs/batch
+[2026.04.03-06.28.18:010][452]LogShaderCompilers: Display: Average processing rate: 12.45 jobs/sec
+[2026.04.03-06.28.18:010][452]LogShaderCompilers: Display: Total thread time: 81.592 s
+[2026.04.03-06.28.18:010][452]LogShaderCompilers: Display: Total thread preprocess time: 40.446 s
+[2026.04.03-06.28.18:010][452]LogShaderCompilers: Display: Percentage time preprocessing: 49.57%
+[2026.04.03-06.28.18:010][452]LogShaderCompilers: Display: Effective parallelization: 9.41 (times faster than compiling all shaders on one thread). Compare with number of workers: 16 - 0.587869
+[2026.04.03-06.28.18:010][452]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.04.03-06.28.18:010][452]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    1 times, average 1.83 sec, max 1.83 sec, min 1.83 sec)
+[2026.04.03-06.28.18:010][452]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    6 times, average 1.62 sec, max 2.22 sec, min 1.15 sec)
+[2026.04.03-06.28.18:010][452]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled   11 times, average 1.30 sec, max 1.57 sec, min 0.62 sec)
+[2026.04.03-06.28.18:010][452]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS (compiled    6 times, average 1.12 sec, max 1.26 sec, min 1.00 sec)
+[2026.04.03-06.28.18:010][452]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   13 times, average 0.90 sec, max 1.16 sec, min 0.50 sec)
+[2026.04.03-06.28.18:010][452]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.04.03-06.28.18:010][452]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 17.50% of total time (compiled   11 times, average 1.30 sec, max 1.57 sec, min 0.62 sec)
+[2026.04.03-06.28.18:010][452]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 14.32% of total time (compiled   13 times, average 0.90 sec, max 1.16 sec, min 0.50 sec)
+[2026.04.03-06.28.18:010][452]LogShaderCompilers: Display:                                             FDebugViewModePS - 11.90% of total time (compiled    6 times, average 1.62 sec, max 2.22 sec, min 1.15 sec)
+[2026.04.03-06.28.18:010][452]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS - 8.25% of total time (compiled    6 times, average 1.12 sec, max 1.26 sec, min 1.00 sec)
+[2026.04.03-06.28.18:010][452]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 7.57% of total time (compiled   13 times, average 0.47 sec, max 0.89 sec, min 0.24 sec)
+[2026.04.03-06.28.18:010][452]LogShaderCompilers: Display: === Material stats ===
+[2026.04.03-06.28.18:010][452]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.04.03-06.28.18:010][452]LogShaderCompilers: Display: Materials Translated:    152
+[2026.04.03-06.28.18:010][452]LogShaderCompilers: Display: Material Total Translate Time: 0.12 s
+[2026.04.03-06.28.18:010][452]LogShaderCompilers: Display: Material Translation Only: 0.04 s (36%)
+[2026.04.03-06.28.18:010][452]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2026.04.03-06.28.18:010][452]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2026.04.03-06.28.18:010][452]LogShaderCompilers: Display: ================================================
+[2026.04.03-06.31.57:025][592]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 12467.340820
+[2026.04.03-06.31.57:125][598]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.03-06.31.57:125][598]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 12467.424805, Update Interval: 359.990845
+[2026.04.03-06.38.43:843][  1]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 12873.532227
+[2026.04.03-06.38.43:960][  7]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.03-06.38.43:960][  8]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 12873.630859, Update Interval: 358.954437
+[2026.04.03-06.45.08:793][ 26]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_10
+[2026.04.03-06.45.10:015][ 93]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_11
+[2026.04.03-06.45.10:073][ 94]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_12
+[2026.04.03-06.45.10:267][ 95]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_13
+[2026.04.03-06.45.10:362][ 95]LogRenderer: Warning: [VSM] One Pass Projection max lights overflow. If you see shadow artifacts, decrease the amount of local lights per pixel, or increase r.Shadow.Virtual.OnePassProjection.MaxLightsPerPixel.
+[2026.04.03-06.45.10:470][ 97]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_14
+[2026.04.03-06.45.10:506][ 98]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_15
+[2026.04.03-06.45.30:286][278]LogContentBrowser: Deferred new asset file creation: BP_ThirdPersonCharacter_Child
+[2026.04.03-06.45.30:297][278]LogContentBrowser: Creating deferred item: BP_ThirdPersonCharacter_Child
+[2026.04.03-06.45.30:320][279]LogContentBrowser: Renaming the item being created (Deferred Item: BP_ThirdPersonCharacter_Child).
+[2026.04.03-06.45.33:784][487]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 13282.771484
+[2026.04.03-06.45.33:883][493]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.03-06.45.33:883][494]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 13282.854492, Update Interval: 324.331787
+[2026.04.03-06.45.53:848][689]LogContentBrowser: Attempting asset rename: BP_ThirdPersonCharacter_Child -> BP_Movement
+[2026.04.03-06.45.53:857][689]LogContentBrowser: End creating deferred item BP_ThirdPersonCharacter_Child
+[2026.04.03-06.45.57:060][873]LogContentBrowser: Attempting asset rename: BP_ThirdPersonCharacter -> BP_ThirdPersonCharacter
+[2026.04.03-06.46.18:064][127]LogShaderCompilers: Display: ================================================
+[2026.04.03-06.46.18:064][127]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.04.03-06.46.18:064][127]LogShaderCompilers: Display: Total job queries 2,584, among them cache hits 587 (22.72%), DDC hits 1,716 (66.41%), Duplicates 172 (6.66%)
+[2026.04.03-06.46.18:064][127]LogShaderCompilers: Display: Tracking 1,825 distinct input hashes that result in 1,098 distinct outputs (60.16%)
+[2026.04.03-06.46.18:064][127]LogShaderCompilers: Display: RAM used: 10.07 MiB of 1.60 GiB budget. Usage: 0.61%
+[2026.04.03-06.46.18:064][127]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.04.03-06.46.18:064][127]LogShaderCompilers: Display: Shaders Compiled: 109
+[2026.04.03-06.46.18:064][127]LogShaderCompilers: Display: Jobs assigned 109, completed 109 (100%)
+[2026.04.03-06.46.18:064][127]LogShaderCompilers: Display: Average time worker was idle: 236.52 s
+[2026.04.03-06.46.18:064][127]LogShaderCompilers: Display: Time job spent in pending queue: average 1.54 s, longest 5.98 s
+[2026.04.03-06.46.18:064][127]LogShaderCompilers: Display: Job execution time: average 2.13 s, max 5.49 s
+[2026.04.03-06.46.18:064][127]LogShaderCompilers: Display: Job life time (pending + execution): average 3.66 s, max 7.04
+[2026.04.03-06.46.18:064][127]LogShaderCompilers: Display: Shader code size: total 1.03 MiB, numShaders 109, average 9.687 KiB, min 2.105 KiB, max 30.828 KiB
+[2026.04.03-06.46.18:064][127]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 9.80 s
+[2026.04.03-06.46.18:064][127]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.32%
+[2026.04.03-06.46.18:064][127]LogShaderCompilers: Display: Jobs were issued in 72 batches (only local compilation was used), average 1.51 jobs/batch
+[2026.04.03-06.46.18:064][127]LogShaderCompilers: Display: Average processing rate: 11.12 jobs/sec
+[2026.04.03-06.46.18:064][127]LogShaderCompilers: Display: Total thread time: 82.448 s
+[2026.04.03-06.46.18:064][127]LogShaderCompilers: Display: Total thread preprocess time: 40.468 s
+[2026.04.03-06.46.18:064][127]LogShaderCompilers: Display: Percentage time preprocessing: 49.08%
+[2026.04.03-06.46.18:064][127]LogShaderCompilers: Display: Effective parallelization: 8.41 (times faster than compiling all shaders on one thread). Compare with number of workers: 16 - 0.525700
+[2026.04.03-06.46.18:064][127]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.04.03-06.46.18:064][127]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    1 times, average 1.83 sec, max 1.83 sec, min 1.83 sec)
+[2026.04.03-06.46.18:064][127]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    6 times, average 1.62 sec, max 2.22 sec, min 1.15 sec)
+[2026.04.03-06.46.18:064][127]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled   11 times, average 1.30 sec, max 1.57 sec, min 0.62 sec)
+[2026.04.03-06.46.18:064][127]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS (compiled    6 times, average 1.12 sec, max 1.26 sec, min 1.00 sec)
+[2026.04.03-06.46.18:064][127]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   14 times, average 0.90 sec, max 1.16 sec, min 0.50 sec)
+[2026.04.03-06.46.18:064][127]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.04.03-06.46.18:064][127]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 17.32% of total time (compiled   11 times, average 1.30 sec, max 1.57 sec, min 0.62 sec)
+[2026.04.03-06.46.18:064][127]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 15.21% of total time (compiled   14 times, average 0.90 sec, max 1.16 sec, min 0.50 sec)
+[2026.04.03-06.46.18:064][127]LogShaderCompilers: Display:                                             FDebugViewModePS - 11.77% of total time (compiled    6 times, average 1.62 sec, max 2.22 sec, min 1.15 sec)
+[2026.04.03-06.46.18:064][127]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS - 8.17% of total time (compiled    6 times, average 1.12 sec, max 1.26 sec, min 1.00 sec)
+[2026.04.03-06.46.18:064][127]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 7.49% of total time (compiled   13 times, average 0.47 sec, max 0.89 sec, min 0.24 sec)
+[2026.04.03-06.46.18:064][127]LogShaderCompilers: Display: === Material stats ===
+[2026.04.03-06.46.18:064][127]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.04.03-06.46.18:064][127]LogShaderCompilers: Display: Materials Translated:    152
+[2026.04.03-06.46.18:064][127]LogShaderCompilers: Display: Material Total Translate Time: 0.12 s
+[2026.04.03-06.46.18:064][127]LogShaderCompilers: Display: Material Translation Only: 0.04 s (36%)
+[2026.04.03-06.46.18:064][127]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2026.04.03-06.46.18:064][127]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2026.04.03-06.46.18:064][127]LogShaderCompilers: Display: ================================================
+[2026.04.03-06.46.50:623][808]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2026.04.03-06.46.51:923][808]LogSlate: Window 'Delete Assets' being destroyed
+[2026.04.03-06.46.51:983][808]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2026.04.03-06.46.52:008][808]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2026.04.03-06.46.52:032][808]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
